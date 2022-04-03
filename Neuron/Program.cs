@@ -10,7 +10,7 @@ namespace Neuron
         public double ActualResult { get; private set; }
         public double LastError { get; private set; }
         public double Smoothing { get; set; } = 0.001;
-
+        //fgfgf
         public double ProcessInputData(double input)
         {
             return Activate(input * weight);
